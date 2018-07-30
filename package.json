@@ -1,18 +1,23 @@
 {
+  "homepage": "https://abdullahmuhammed5.github.io/MyReads",
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
     "prop-types": "^15.6.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "webpack": "^2.5.1"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "gh-pages": "^1.2.0",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
