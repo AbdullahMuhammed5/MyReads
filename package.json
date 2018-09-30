@@ -1,4 +1,7 @@
 {
+  "name": "MyReads",
+  "version": "0.1.0",
+  "private": true,
   "homepage": "https://abdullahmuhammed5.github.io/MyReads",
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
