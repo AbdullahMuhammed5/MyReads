@@ -9,8 +9,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.3.1",
-    "url-parse": "^1.4.3",
-    "webpack": "^2.5.1"
+    "react-scripts": "^2.1.1",
+    "url-parse": "^1.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,6 +20,12 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
